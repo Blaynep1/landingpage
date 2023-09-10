@@ -1,1 +1,1 @@
-# landingpage
+Fake business landing page for odin project
