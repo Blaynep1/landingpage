@@ -17,7 +17,7 @@ body {
 }
 
 
-header {
+header , .quotebox {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
@@ -144,7 +144,7 @@ header {
 
 .quotebox { 
     /* background-color: #ffeedb; */
-    background-color: #ada8b6;
+    background-color: #3c968ab4;
     
     height: 300px;
     padding: 0;
@@ -169,3 +169,39 @@ header {
     color: ;
 
 }
+
+.footerbox {
+    background-color: rgb(46, 194, 231);
+    height: 100px;
+    
+    width: 800px;
+   border-radius: 10px;
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+footer {
+    background-color: beige;
+    height: 200px;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact {
+    font-size: 40px;
+    color: azure;
+    text-align: center;
+    font-family: Courier;
+    
+}
+
+.contact {
+    text-decoration: none;
+}
+
